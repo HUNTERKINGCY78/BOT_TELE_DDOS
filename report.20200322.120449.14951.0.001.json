@@ -1,0 +1,455 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200322.120449.14951.0.001.json",
+    "dumpEventTime": "2020-03-22T12:04:49Z",
+    "dumpEventTimeStamp": "1584875089034",
+    "processId": 14951,
+    "cwd": "/root",
+    "commandLine": [
+      "node",
+      "/root/layer7.js",
+      "https://legh5.leg100.com/resource/assets/brnn/sound/brnn_hall_bg_fb2180b9.mp3",
+      "7200",
+      "POST"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "glibcVersionRuntime": "2.23",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.15.0-88-generic",
+    "osVersion": "#88~16.04.1-Ubuntu SMP Wed Feb 12 04:19:15 UTC 2020",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 1976,
+        "user": 683579400,
+        "nice": 0,
+        "sys": 280408800,
+        "idle": 20246235900,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 1810,
+        "user": 489096200,
+        "nice": 0,
+        "sys": 204664000,
+        "idle": 20594170800,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 2733,
+        "user": 663700400,
+        "nice": 100,
+        "sys": 271313600,
+        "idle": 20310397900,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 2509,
+        "user": 489317200,
+        "nice": 0,
+        "sys": 206315300,
+        "idle": 20602231500,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 1831,
+        "user": 647650000,
+        "nice": 0,
+        "sys": 268857100,
+        "idle": 20337272400,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 1863,
+        "user": 490963200,
+        "nice": 0,
+        "sys": 210007900,
+        "idle": 20603278800,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 2261,
+        "user": 455444700,
+        "nice": 0,
+        "sys": 127856200,
+        "idle": 19606673400,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 2584,
+        "user": 547598500,
+        "nice": 0,
+        "sys": 167307800,
+        "idle": 20544474100,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 1908,
+        "user": 589848700,
+        "nice": 0,
+        "sys": 287217600,
+        "idle": 20452215100,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 1888,
+        "user": 486195600,
+        "nice": 0,
+        "sys": 237102500,
+        "idle": 20630533300,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 1928,
+        "user": 580557400,
+        "nice": 0,
+        "sys": 278037000,
+        "idle": 20472483800,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 2069,
+        "user": 484963500,
+        "nice": 0,
+        "sys": 226197500,
+        "idle": 20659957400,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 2070,
+        "user": 576897200,
+        "nice": 0,
+        "sys": 270595800,
+        "idle": 20480396300,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 2060,
+        "user": 485182100,
+        "nice": 0,
+        "sys": 226811200,
+        "idle": 20657954800,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 1902,
+        "user": 575616400,
+        "nice": 0,
+        "sys": 276665300,
+        "idle": 20479090600,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 PRO 1700X Eight-Core Processor",
+        "speed": 1885,
+        "user": 484802700,
+        "nice": 0,
+        "sys": 225076800,
+        "idle": 20659465200,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "enp27s0",
+        "internal": false,
+        "mac": "30:9c:23:83:64:b2",
+        "address": "78.31.71.216",
+        "netmask": "255.255.255.255",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "enp27s0",
+        "internal": false,
+        "mac": "30:9c:23:83:64:b2",
+        "address": "fe80::329c:23ff:fe83:64b2",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      }
+    ],
+    "host": "srv75079"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b278f5",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [node]"
+    },
+    {
+      "pc": "0x00000000009f13ec",
+      "symbol": "node::OnFatalError(char const*, char const*) [node]"
+    },
+    {
+      "pc": "0x0000000000b5da9e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]"
+    },
+    {
+      "pc": "0x0000000000b5de19",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]"
+    },
+    {
+      "pc": "0x0000000000d0a765",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000d0adf6",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]"
+    },
+    {
+      "pc": "0x0000000000d1760a",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [node]"
+    },
+    {
+      "pc": "0x0000000000d18515",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]"
+    },
+    {
+      "pc": "0x0000000000d1afcc",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]"
+    },
+    {
+      "pc": "0x0000000000ce19bb",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [node]"
+    },
+    {
+      "pc": "0x00000000010246ce",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [node]"
+    },
+    {
+      "pc": "0x00000000013a71b9",
+      "symbol": " [node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2153435136,
+    "totalCommittedMemory": 2151815232,
+    "usedMemory": 2136897376,
+    "availableMemory": 46647320,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 1247656,
+        "capacity": 1047456,
+        "used": 198088,
+        "available": 849368
+      },
+      "old_space": {
+        "memorySize": 2113814528,
+        "committedMemory": 2113503096,
+        "capacity": 2105469552,
+        "used": 2105099216,
+        "available": 370336
+      },
+      "code_space": {
+        "memorySize": 954368,
+        "committedMemory": 725056,
+        "capacity": 634944,
+        "used": 634944,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 6033408,
+        "committedMemory": 6032800,
+        "capacity": 734960,
+        "used": 734960,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 30224384,
+        "committedMemory": 30224384,
+        "capacity": 30194576,
+        "used": 30194576,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 244.738,
+    "kernelCpuSeconds": 54.0714,
+    "cpuConsumptionPercent": 5.59778,
+    "maxRss": 3517284352,
+    "pageFaults": {
+      "IORequired": 29,
+      "IONotRequired": 1567795
+    },
+    "fsActivity": {
+      "reads": 4736,
+      "writes": 24
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 123.407,
+    "kernelCpuSeconds": 53.5165,
+    "cpuConsumptionPercent": 3.31442,
+    "fsActivity": {
+      "reads": 4736,
+      "writes": 24
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "HISTTIMEFORMAT": "%d/%m/%y %T ",
+    "MAIL": "/var/mail/root",
+    "SSH_CLIENT": "89.249.73.41 58758 22",
+    "USER": "root",
+    "LANGUAGE": "en_US:en",
+    "SHLVL": "1",
+    "HOME": "/root",
+    "SSH_TTY": "/dev/pts/0",
+    "LOGNAME": "root",
+    "_": "/bin/sh",
+    "XDG_SESSION_ID": "1303",
+    "TERM": "xterm",
+    "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games",
+    "XDG_RUNTIME_DIR": "/run/user/0",
+    "DISPLAY": "localhost:10.0",
+    "LANG": "en_US.UTF-8",
+    "SHELL": "/bin/bash",
+    "PWD": "/root",
+    "SSH_CONNECTION": "89.249.73.41 58758 78.31.71.216 22"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 128249,
+      "hard": 128249
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
